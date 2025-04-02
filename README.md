@@ -8,4 +8,4 @@ A Python-based CPU scheduling simulator that visualizes different scheduling alg
 
 ## How to Run  
 1. Install Python 3 and required libraries (`matplotlib`, `tkinter`).  
-2. Run `main.py` to start the simulator.  
+2. Run `scheduler_gui.py` to start the simulator.  
