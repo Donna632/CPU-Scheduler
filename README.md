@@ -97,4 +97,5 @@ P3      | 2           | 4         | 3           | 7
 P4      | 3           | 3         | 6           | 9  
 Average Waiting Time: 2.5
 Average Turnaround Time: 5.5
+
 A pop-up message will also display the average waiting time and turnaround time.
