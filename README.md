@@ -3,7 +3,7 @@ CPU Scheduler Simulator
 A Python-based CPU scheduling simulator that helps visualize different scheduling algorithms. The program simulates the execution of processes and generates Gantt charts for better understanding. Additionally, it calculates performance metrics such as waiting time, turnaround time, and response time.
 
 Features
-
+--------
 ✅ Supports multiple scheduling algorithms:
 
 First-Come, First-Served (FCFS)
@@ -29,7 +29,7 @@ Response Time
 ✅ Real-time simulation of CPU scheduling
 
 How It Works
-
+------------
 1. Process Input
    
 The user enters process details such as process ID, arrival time, burst time, and priority (for priority scheduling).
@@ -52,14 +52,14 @@ The program calculates waiting time, turnaround time, and response time for each
 
 It also calculates average waiting time and average turnaround time and displays them.
 
-Installation and Setup
-
-Prerequisites
+Installation and Setup:
+-----------------------
+Prerequisites:
 
 
 Ensure you have Python 3 installed on your system. If you don't have it, download it from Python Official Website.
 
-Install Required Libraries
+Install Required Libraries:
 
 Run the following command in the terminal to install dependencies:
 
@@ -71,7 +71,8 @@ Navigate to the project directory and execute:
 
 python scheduler_gui.py
 
-Example Output
+Example Output:
+---------------
 
 Gantt Chart Example:
 
@@ -84,11 +85,12 @@ The Gantt chart visually represents the scheduling order of processes.
 
 Performance Metrics Example:
 
+
 After execution, the program displays the following:
 
 
 Process | Arrival Time | Burst Time | Waiting Time | Turnaround Time  
---------------------------------------------------------------  
+ 
 P1      | 0           | 2         | 0           | 2  
 P2      | 1           | 3         | 1           | 4  
 P3      | 2           | 4         | 3           | 7  
