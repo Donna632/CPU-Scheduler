@@ -64,6 +64,7 @@ The Gantt chart visually represents the scheduling order of processes.
 
 
 | P1 | P2 | P3 | P4 |
+
 0    2    5    9   12
 Performance Metrics Example:
 
