@@ -57,24 +57,19 @@ pip install matplotlib pandas
 Run the Simulator
 Navigate to the project directory and execute:
 
-bash
-Copy
-Edit
 python scheduler_gui.py
 Example Output
 Gantt Chart Example:
 The Gantt chart visually represents the scheduling order of processes.
 
-Copy
-Edit
+
 | P1 | P2 | P3 | P4 |
 0    2    5    9   12
 Performance Metrics Example:
+
 After execution, the program displays the following:
 
-sql
-Copy
-Edit
+
 Process | Arrival Time | Burst Time | Waiting Time | Turnaround Time  
 --------------------------------------------------------------  
 P1      | 0           | 2         | 0           | 2  
